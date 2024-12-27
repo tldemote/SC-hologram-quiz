@@ -1,9 +1,9 @@
 // List of images with their correct labels (grouped by label)
 const imagesData = [
     { label: '600i', paths: ['images/600i1.webp', 'images/600i2.webp', 'images/600i3.webp'] },
-    { label: 'Defender', paths: ['images/Defender1.webp'] },
+    { label: 'Defender', paths: ['images/Defender1.webp', 'images/Defender2.webp', 'images/Defender3.webp', 'images/Defender4.webp'] },
     { label: 'Starfarer', paths: ['images/farer1.webp', 'images/farer2.webp', 'images/farer3.webp'] },
-    { label: 'Starlancer', paths: ['images/lancer.webp'] },
+    { label: 'Starlancer MAX', paths: ['images/lancer.webp'] },
     { label: 'Mercury Star Runner', paths: ['images/Mercury1.webp', 'images/Mercury2.webp'] },
     { label: 'Crusader Spirit', paths: ['images/Spirit1.webp', 'images/Spirit2.webp'] },
     { label: 'Hercules Starlifter', paths: ['images/Hercules.webp', 'images/Hercules2.webp', 'images/Hercules3.webp'] },
@@ -19,7 +19,33 @@ const imagesData = [
 	{ label: 'Scythe', paths: ['images/Scythe.webp', 'images/Scythe2.webp'] },
 	{ label: 'Vanguard', paths: ['images/Vanguard.webp', 'images/Vanguard2.webp', 'images/Vanguard3.webp'] },
 	{ label: 'Intrepid', paths: ['images/Intrepid.webp'] },
-	{ label: 'Gladiator', paths: ['images/Gladiator.webp', 'images/Gladiator2.webp'] }
+	{ label: 'Gladiator', paths: ['images/Gladiator.webp', 'images/Gladiator2.webp'] },
+	{ label: 'Caterpillar', paths: ['images/Caterpillar.webp', 'images/Caterpillar2.webp', 'images/Caterpillar3.webp'] },
+	{ label: 'Glaive', paths: ['images/Glaive.webp', 'images/Glaive2.webp', 'images/Glaive3.webp', 'images/Glaive4.webp'] },
+	{ label: 'Blade', paths: ['images/blade.webp', 'images/blade2.webp', 'images/blade3.webp', 'images/blade4.webp'] },
+	{ label: 'Hammerhead', paths: ['images/HH.webp', 'images/HH2.webp'] },
+	{ label: 'Hornet', paths: ['images/Hornet.webp', 'images/Hornet2.webp', 'images/Hornet3.webp'] },
+	{ label: 'Pisces', paths: ['images/Pisces.webp', 'images/Pisces2.webp'] },
+	{ label: 'Arrow', paths: ['images/Arrow.webp'] },
+	{ label: 'Prowler', paths: ['images/Prowler.webp', 'images/Prowler2.webp', 'images/Prowler3.webp'] },
+	{ label: '100i', paths: ['images/100i.webp', 'images/100i2.webp', 'images/100i3.webp', 'images/100i4.webp'] },
+	{ label: 'Fury', paths: ['images/Fury.webp', 'images/Fury2.webp', 'images/Fury3.webp'] },
+	{ label: 'Mole', paths: ['images/Mole.webp', 'images/Mole2.webp', 'images/Mole3.webp', 'images/Mole4.webp'] },
+	{ label: 'Firebird', paths: ['images/Firebird.webp', 'images/Firebird2.webp', 'images/Firebird3.webp', 'images/Firebird4.webp'] },
+	{ label: 'Retaliator', paths: ['images/Retaliator1.webp', 'images/Retaliator2.webp', 'images/Retaliator3.webp', 'images/Retaliator4.webp'] },
+	{ label: 'Reliant', paths: ['images/Reliant.webp', 'images/Reliant2.webp', 'images/Reliant3.webp', 'images/Reliant4.webp'] },
+	{ label: 'Gladius', paths: ['images/Gladius.webp', 'images/Gladius2.webp', 'images/Gladius3.webp', 'images/Gladius4.webp'] },
+	{ label: 'Khartu-al', paths: ['images/Khartu.webp', 'images/Khartu2.webp', 'images/Khartu3.webp', 'images/Khartu4.webp', 'images/Khartu5.webp', 'images/Khartu6.webp'] },
+	{ label: 'Terrapin', paths: ['images/Terrapin.webp', 'images/Terrapin2.webp', 'images/Terrapin3.webp', 'images/Terrapin4.webp', 'images/Terrapin5.webp'] },
+	{ label: 'Santok.yai', paths: ['images/SanTokYai.webp', 'images/SanTokYai2.webp', 'images/SanTokYai3.webp'] },
+	{ label: 'Ares', paths: ['images/Ares.webp', 'images/Ares2.webp', 'images/Ares3.webp', 'images/Ares4.webp'] },
+	{ label: 'Hawk', paths: ['images/Hawk.webp', 'images/Hawk2.webp', 'images/Hawk3.webp', 'images/Hawk4.webp', 'images/Hawk5.webp'] },
+	{ label: 'Carrack', paths: ['images/Carrack.webp', 'images/Carrack2.webp', 'images/Carrack3.webp', 'images/Carrack4.webp'] },
+	{ label: 'Corsair', paths: ['images/Corsair.webp', 'images/Corsair2.webp', 'images/Corsair3.webp', 'images/Corsair4.webp'] },
+	{ label: 'Eclipse', paths: ['images/Eclipse.webp', 'images/Eclipse2.webp', 'images/Eclipse3.webp'] },
+	{ label: 'Mustang', paths: ['images/Mustang.webp', 'images/Mustang2.webp', 'images/Mustang3.webp'] },
+	{ label: 'MPUV', paths: ['images/MPUV.webp', 'images/MPUV2.webp', 'images/MPUV3.webp', 'images/MPUV4.webp'] },
+	{ label: 'Vulture', paths: ['images/Vulture.webp', 'images/Vulture2.webp', 'images/Vulture3.webp', 'images/Vulture4.webp'] }
 ];
 
 // Flatten the `imagesData` into individual image objects (to use in the quiz)
