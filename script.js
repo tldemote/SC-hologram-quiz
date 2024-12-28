@@ -32,7 +32,7 @@ const imagesData = [
 	{ label: 'Fury', paths: ['images/Fury.webp', 'images/Fury2.webp', 'images/Fury3.webp'] },
 	{ label: 'Mole', paths: ['images/Mole.webp', 'images/Mole2.webp', 'images/Mole3.webp', 'images/Mole4.webp'] },
 	{ label: 'Firebird', paths: ['images/Firebird.webp', 'images/Firebird2.webp', 'images/Firebird3.webp', 'images/Firebird4.webp'] },
-	{ label: 'Retaliator', paths: ['images/Retaliator1.webp', 'images/Retaliator2.webp', 'images/Retaliator3.webp', 'images/Retaliator4.webp'] },
+	{ label: 'Retaliator', paths: ['images/Retaliator.webp', 'images/Retaliator2.webp', 'images/Retaliator3.webp', 'images/Retaliator4.webp'] },
 	{ label: 'Reliant', paths: ['images/Reliant.webp', 'images/Reliant2.webp', 'images/Reliant3.webp', 'images/Reliant4.webp'] },
 	{ label: 'Gladius', paths: ['images/Gladius.webp', 'images/Gladius2.webp', 'images/Gladius3.webp', 'images/Gladius4.webp'] },
 	{ label: 'Khartu-al', paths: ['images/Khartu.webp', 'images/Khartu2.webp', 'images/Khartu3.webp', 'images/Khartu4.webp', 'images/Khartu5.webp', 'images/Khartu6.webp'] },
