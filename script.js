@@ -4,7 +4,7 @@ const imagesData = [
     { label: 'Defender', paths: ['images/Defender1.webp', 'images/Defender2.webp', 'images/Defender3.webp', 'images/Defender4.webp'] },
     { label: 'Starfarer', paths: ['images/farer1.webp', 'images/farer2.webp', 'images/farer3.webp'] },
     { label: 'Starlancer MAX', paths: ['images/lancer.webp'] },
-    { label: 'Mercury Star Runner', paths: ['images/Mercury1.webp', 'images/Mercury2.webp', 'images/Mercury3.webp', 'images/Mercury4webp'] },
+    { label: 'Mercury Star Runner', paths: ['images/Mercury1.webp', 'images/Mercury2.webp', 'images/Mercury3.webp', 'images/Mercury4.webp'] },
     { label: 'Crusader Spirit', paths: ['images/Spirit1.webp', 'images/Spirit2.webp'] },
     { label: 'Hercules Starlifter', paths: ['images/Hercules.webp', 'images/Hercules2.webp', 'images/Hercules3.webp'] },
 	{ label: 'Constellation', paths: ['images/Constellation.webp', 'images/Constellation2.webp', 'images/Constellation3.webp'] },
