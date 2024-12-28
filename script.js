@@ -4,7 +4,7 @@ const imagesData = [
     { label: 'Defender', paths: ['images/Defender1.webp', 'images/Defender2.webp', 'images/Defender3.webp', 'images/Defender4.webp'] },
     { label: 'Starfarer', paths: ['images/farer1.webp', 'images/farer2.webp', 'images/farer3.webp'] },
     { label: 'Starlancer MAX', paths: ['images/lancer.webp'] },
-    { label: 'Mercury Star Runner', paths: ['images/Mercury1.webp', 'images/Mercury2.webp'] },
+    { label: 'Mercury Star Runner', paths: ['images/Mercury1.webp', 'images/Mercury2.webp', 'images/Mercury3.webp', 'images/Mercury4webp'] },
     { label: 'Crusader Spirit', paths: ['images/Spirit1.webp', 'images/Spirit2.webp'] },
     { label: 'Hercules Starlifter', paths: ['images/Hercules.webp', 'images/Hercules2.webp', 'images/Hercules3.webp'] },
 	{ label: 'Constellation', paths: ['images/Constellation.webp', 'images/Constellation2.webp', 'images/Constellation3.webp'] },
@@ -15,10 +15,10 @@ const imagesData = [
 	{ label: 'Hurricane', paths: ['images/Hurricane.webp', 'images/Hurricane2.webp', 'images/Hurricane3.webp'] },
 	{ label: 'Redeemer', paths: ['images/Redeemer.webp'] },
 	{ label: 'Polaris', paths: ['images/Polaris.webp', 'images/Polaris2.webp', 'images/Polaris3.webp'] },
-	{ label: 'Scorpius', paths: ['images/Scorpius.webp', 'images/Scorpius2.webp'] },
+	{ label: 'Scorpius', paths: ['images/Scorpius.webp', 'images/Scorpius2.webp', 'images/Scorpius3.webp', 'images/Scorpius4.webp'] },
 	{ label: 'Scythe', paths: ['images/Scythe.webp', 'images/Scythe2.webp'] },
 	{ label: 'Vanguard', paths: ['images/Vanguard.webp', 'images/Vanguard2.webp', 'images/Vanguard3.webp'] },
-	{ label: 'Intrepid', paths: ['images/Intrepid.webp'] },
+	{ label: 'Intrepid', paths: ['images/Intrepid.webp', 'images/Intrepid2.webp', 'images/Intrepid3.webp', 'images/Intrepid4.webp', 'images/Intrepid5.webp'] },
 	{ label: 'Gladiator', paths: ['images/Gladiator.webp', 'images/Gladiator2.webp'] },
 	{ label: 'Caterpillar', paths: ['images/Caterpillar.webp', 'images/Caterpillar2.webp', 'images/Caterpillar3.webp'] },
 	{ label: 'Glaive', paths: ['images/Glaive.webp', 'images/Glaive2.webp', 'images/Glaive3.webp', 'images/Glaive4.webp'] },
@@ -26,7 +26,7 @@ const imagesData = [
 	{ label: 'Hammerhead', paths: ['images/HH.webp', 'images/HH2.webp'] },
 	{ label: 'Hornet', paths: ['images/Hornet.webp', 'images/Hornet2.webp', 'images/Hornet3.webp'] },
 	{ label: 'Pisces', paths: ['images/Pisces.webp', 'images/Pisces2.webp'] },
-	{ label: 'Arrow', paths: ['images/Arrow.webp'] },
+	{ label: 'Arrow', paths: ['images/Arrow.webp', 'images/Arrow2.webp', 'images/Arrow3.webp', 'images/Arrow4.webp', 'images/Arrow5.webp'] },
 	{ label: 'Prowler', paths: ['images/Prowler.webp', 'images/Prowler2.webp', 'images/Prowler3.webp'] },
 	{ label: '100i', paths: ['images/100i.webp', 'images/100i2.webp', 'images/100i3.webp', 'images/100i4.webp'] },
 	{ label: 'Fury', paths: ['images/Fury.webp', 'images/Fury2.webp', 'images/Fury3.webp'] },
@@ -45,7 +45,26 @@ const imagesData = [
 	{ label: 'Eclipse', paths: ['images/Eclipse.webp', 'images/Eclipse2.webp', 'images/Eclipse3.webp'] },
 	{ label: 'Mustang', paths: ['images/Mustang.webp', 'images/Mustang2.webp', 'images/Mustang3.webp'] },
 	{ label: 'MPUV', paths: ['images/MPUV.webp', 'images/MPUV2.webp', 'images/MPUV3.webp', 'images/MPUV4.webp'] },
-	{ label: 'Vulture', paths: ['images/Vulture.webp', 'images/Vulture2.webp', 'images/Vulture3.webp', 'images/Vulture4.webp'] }
+	{ label: 'Vulture', paths: ['images/Vulture.webp', 'images/Vulture2.webp', 'images/Vulture3.webp', 'images/Vulture4.webp'] },
+	{ label: '85x', paths: ['images/85x.webp', 'images/85x2.webp', 'images/85x3.webp', 'images/85x4.webp'] },
+	{ label: 'Aurora', paths: ['images/Aurora.webp', 'images/Aurora2.webp', 'images/Aurora3.webp'] },
+	{ label: 'Mantis', paths: ['images/Mantis.webp', 'images/Mantis2.webp'] },
+	{ label: 'Nomad', paths: ['images/Nomad.webp', 'images/Nomad2.webp', 'images/Nomad3.webp'] },
+	{ label: 'RAFT', paths: ['images/RAFT.webp', 'images/RAFT2.webp', 'images/RAFT3.webp', 'images/RAFT4.webp', 'images/RAFT5.webp'] },
+	{ label: 'Valkyrie', paths: ['images/Valkyrie.webp', 'images/Valkyrie2.webp', 'images/Valkyrie3.webp', 'images/Valkyrie4.webp', 'images/Valkyrie5.webp'] },
+	{ label: 'm50', paths: ['images/m50.webp', 'images/m502.webp', 'images/m503.webp'] },
+	{ label: 'Prospector', paths: ['images/Prospector.webp', 'images/Prospector2.webp', 'images/Prospector3.webp', 'images/Prospector4.webp'] },
+	{ label: 'Zeus MKII', paths: ['images/Zeus.webp', 'images/Zeus2.webp', 'images/Zeus3.webp'] },
+	{ label: 'Hull A', paths: ['images/HULLA.webp', 'images/HULLA2.webp', 'images/HULLA3.webp'] },
+	{ label: '400i', paths: ['images/400i.webp', 'images/400i2.webp', 'images/400i3.webp'] },
+	{ label: 'Guardian', paths: ['images/Guardian.webp', 'images/Guardian2.webp', 'images/Guardian3.webp', 'images/Guardian4.webp'] },
+	{ label: 'SRV', paths: ['images/SRV.webp', 'images/SRV2.webp', 'images/SRV3.webp', 'images/SRV4.webp'] },
+	{ label: 'Freelancer DUR', paths: ['images/FreelancerDUR.webp', 'images/FreelancerDUR2.webp', 'images/FreelancerDUR3.webp', 'images/FreelancerDUR4.webp'] },
+	{ label: 'Freelancer MAX', paths: ['images/FreelancerMAX.webp', 'images/FreelancerMAX2.webp', 'images/FreelancerMAX3.webp', 'images/FreelancerMAX4.webp'] },
+	{ label: 'Hull C', paths: ['images/HullC.webp', 'images/HullC2.webp', 'images/HullC3.webp', 'images/HullC4.webp', 'images/HullC5.webp'] },
+	{ label: 'Merlin', paths: ['images/Merlin.webp', 'images/Merlin2.webp', 'images/Merlin3.webp'] },
+	{ label: 'Talon', paths: ['images/Talon.webp', 'images/Talon2.webp', 'images/Talon3.webp'] }
+	
 ];
 
 // Flatten the `imagesData` into individual image objects (to use in the quiz)
@@ -92,10 +111,10 @@ function generateQuestion() {
     const incorrectLabels = [...new Set(images
         .filter(img => img.label !== correctLabel)
         .map(img => img.label))]
-        .slice(0, 3);  // Limit to 3 incorrect answers
+        .slice(0, 9);  // Limit to 9 incorrect answers
 
-    // If there are fewer than 3 incorrect labels, we need to adjust
-    if (incorrectLabels.length < 3) {
+    // If there are fewer than 9 incorrect labels, we need to adjust
+    if (incorrectLabels.length < 9) {
         // Add more incorrect labels randomly, if needed
         const allLabels = [...new Set(images.map(img => img.label))];
         const remainingIncorrectLabels = allLabels.filter(label => label !== correctLabel);
